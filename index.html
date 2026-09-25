@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>余健琦——Yuntian123的个人主页</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="content">
+        <img src="assets/images/avatar.jpg" alt="头像" class="avatar">
+        <p class="intro-text">你好，我是余健琦——Yuntian123。武汉科技大学机械专硕研一，课题组方向是耐火材料损伤行为研究，正在把 AI 和编程用到材料服役行为的分析与预测上。
+</p>
+        <img src="https://images.unsplash.com/photo-1752614671119-4868a91efc14?fm=jpg&q=60&w=800&auto=format&fit=crop" alt="机械臂" class="image">
+        <div class="bottom-buttons">
+            <a href="#about" class="nav-button">关于我</a>
+            <a href="#projects" class="nav-button">项目展示</a>
+            <a href="#contact" class="nav-button">联系方式</a>
+        </div>
+        <div class="timer">
+            <div class="timer-title">学习计时器</div>
+            <div class="timer-display" id="timerDisplay">25:00</div>
+            <div class="timer-controls">
+                <button class="timer-button" id="startBtn" onclick="startTimer()">开始</button>
+                <button class="timer-button" id="pauseBtn" onclick="pauseTimer()" disabled>暂停</button>
+                <button class="timer-button" id="resetBtn" onclick="resetTimer()">重置</button>
+                <button class="timer-button" id="breakBtn" onclick="setBreakTime()">休息5分钟</button>
+            </div>
+        </div>
+    </div>
+
+    <section id="about" class="section">
+        <h2 class="section-title">关于我</h2>
+        <div class="section-content">
+            <p>我是余健琦，武汉科技大学机械专业研一（本科本校机械电子工程）。课题组方向是耐火材料损伤行为研究。我在补的是另一半能力：用 Python 处理试验数据、用机器学习做损伤演化与寿命预测、用前端把结果做成能交互的工具。目标是把「材料服役行为 + 数值表征 + AI 预测」这条链打通，往 CAE 仿真与材料智能研发方向走。
+</p>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <h2 class="section-title">项目展示</h2>
+        <div class="section-content">
+            <p>已完成：① 本站点 —— 原生 HTML/CSS/JS 静态主页，已部署到 GitHub Pages，含番茄钟计时器
+② 第一个 Python 脚本跑通（AI 辅助完成）
+③ Minecraft 服务器搭建 —— FTB StoneBlock 4 / ATM9 开服，独立解决模组冲突并完成存档迁移
+</p>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2 class="section-title">联系方式</h2>
+        <div class="section-content">
+            <a href="mailto:1056133380@qq.com" class="email-link">1056133380@qq.com</a>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
